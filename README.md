@@ -1,13 +1,19 @@
 ## web-automation
 
-This is the web test automation project for testing http://the-internet.herokuapp.com/ website. It was built using Java 11, Selenium 3, JUnit frameworks.
+This is the web test automation project for testing https://www.quandoo.de/en/berlin website. It was built using Java 11, Selenium 3, JUnit frameworks.
 
 ## Tests
 
 Project has a test class which represents the following scenario:
   
- Hovers page:
-  * hover each avatar and verify username text appeared underneath
+ Restaurants Berlin page:
+  * open  Restaurants in Berlin page
+  * accept cookies
+  * save total restaurants number to variable
+  * click filter Top rated
+  * assert total number of restaurants changed
+  * click on first item in Cuisine filter
+  * assert correct number of displayed restaurants
 
 
 ## Prerequisites Software/Tools
@@ -21,12 +27,10 @@ Project has a test class which represents the following scenario:
 
 ## Installation/Running Tests
 
-`git clone https://github.com/violettka/herokuapp.git`
-
-`cd herokuapp/`
+`git clone https://github.com/IrynaAyguen/QA21quandooTestsMavenJUnit`
 
 `mvn test`
 
 ## Contributors
 
-Violeta Abramova abramova.violetta@gmail.com
+Iryna Ayguen  iryna.ayguen2021@gmail.com
